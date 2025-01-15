@@ -1,0 +1,30 @@
+.addingTask {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.calIcon {
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.topTask {
+    background: linear-gradient(0deg, rgba(53, 121, 55, 0.1) 0%, rgba(208, 255, 210, 0.1) 100%);
+    border-top: 1.5px solid #496E4B33
+}
+
+.addcenter {
+    padding: 15px;
+    padding-top: 40px;
+}
+
+.addcenter input {
+    outline: none;
+    border: none;
+    background: rgba(53, 121, 55, 0.1) ;
+    background: #e9f5e9;
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%;
+}

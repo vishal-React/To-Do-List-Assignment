@@ -1,0 +1,55 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 45px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Section */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .menuIC{
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo h1 {
+    font-size: 24px;
+    color: #2d7a2d;
+    margin: 0;
+  }
+  
+  /* Action Buttons */
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-icon {
+    background: none;
+    border: none;
+    margin: 0 10px;
+    font-size: 18px;
+    color: #2d7a2d;
+    cursor: pointer;
+  }
+  
+  .navbar-icon:hover {
+    color: #1e5c1e;
+  }
+  
+  .navbar-icon i {
+    font-size: 18px;
+  }
+  
